@@ -16,6 +16,8 @@ print("pr4")
 
 soucet = 0
 for i in range(5, 12):
-    soucet = soucet + i
+    soucet = soucet + i # soucet += i
 print(soucet)
+
+#index nejvyšší číslo
 
