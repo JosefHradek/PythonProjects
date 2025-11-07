@@ -3,7 +3,7 @@ for i in range(5, 9):
 
 print("pr2")
 
-for i in range(10,4,-1):
+for i in range(4,14,2):
     print(i)
 
 print("pr3")
