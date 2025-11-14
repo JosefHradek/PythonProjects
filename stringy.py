@@ -31,19 +31,19 @@ for i in range (len(promenna)): # to "len" mi spocita pocet pismen v promenny ta
 print(promenna[len(promenna)-1])
 
 print(promenna[5:10])
-
+print("***********************")
 print(promenna[5:10:2])
-
+print("***********************")
 print(promenna[10:5:-2])
-
+print("***********************")
 print(promenna[5:])
-
+print("***********************")
 print(promenna[:5])
-
+print("***********************")
 print(promenna[:5:-1])
-
+print("***********************")
 print(promenna[5::-1])
-
+print("***********************")
 print(promenna[::-1])
-
+print("***********************")
 print(promenna.index(",")) #spotuje kde je dany znak

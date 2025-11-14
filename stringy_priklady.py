@@ -11,6 +11,8 @@ print("pr3******************")
 
 for i in range(len(promenna)):
     print(promenna[:i+1])
+for i in range(len(promenna)):
+    print(promenna[:i:-1])
 
 print("pr4******************")
 
@@ -27,9 +29,6 @@ print("pr6****************************")
 a = "5"
 print(a.zfill(5))
 
-z = 10
-while z < 5
-    print
 # promena.strip()   maže mezery
 
 
