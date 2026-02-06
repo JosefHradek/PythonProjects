@@ -161,3 +161,6 @@ for i in range(len(pole)):
     else:
         lichy += 1
 print(pocet_sudych,",",lichy)
+
+print("pr11")
+
