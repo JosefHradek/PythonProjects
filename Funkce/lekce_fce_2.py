@@ -18,3 +18,4 @@ print(globalni_promenna)
 
 print(type(x))
 print(x)
+#@<>[]{}()
