@@ -26,9 +26,52 @@ for i in range(round(a/2)):
 
 def prvo(a):
     for i in range (2,a):
-        if a%(i) == 0:
+        if a%i == 0:
             return False
     return True
 
-print(prvo(13))
+print(prvo(5))
 
+
+
+def prvo(a):
+    for i in range (2,a):
+        if a%i == 0:
+            return False
+    return True
+#@<>[]{}()
+vstup=[5,13,31,55,17,54,2,6]
+
+def poc_pr(vstup):
+    poc = 0
+    for j in range(len(vstup)):
+        if prvo(vstup[j]):
+            poc += 1
+    return poc
+
+print (poc_pr(vstup))
+
+
+def adding (a,b):
+    return a+b
+
+def odecitani(a,b):
+    return a - b
+
+def pocitej (funkce,a,b):
+    return funkce(a,b)
+
+
+print (pocitej(adding,5,3))
+
+
+pejsek = int(input("zadej cislo"))
+kocicka = int(input("zadej 2 cislo"))
+ptacek = input("zadej fukci ")
+
+if ptacek == "+":
+    print(pocitej(adding, pejsek, kocicka))
+elif ptacek == "-":
+    print(pocitej(odecitani, pejsek, kocicka))
+else:
+    print("neznama funkce")
